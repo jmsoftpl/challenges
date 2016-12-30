@@ -1,0 +1,6 @@
+server:
+  port: 8088
+bus:
+  route:
+    file:
+      path: src/test/resources/test-files/sampleData

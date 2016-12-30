@@ -1,2 +1,7 @@
+### IDE SPECIFIC ITEMS ###
+*.impl
 .idea
-target
+
+### PROJECT SPECIFIC ITEMS ###
+!.mvn/wrapper/maven-wrapper.jar
+target/
