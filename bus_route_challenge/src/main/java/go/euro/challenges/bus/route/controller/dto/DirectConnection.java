@@ -1,18 +1,13 @@
 package go.euro.challenges.bus.route.controller.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import go.euro.challenges.bus.route.util.BusRouteApplicationUtil;
 
-import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 
-import static go.euro.challenges.bus.route.util.BusRouteApplicationUtil.ARRIVAL_SID;
-import static go.euro.challenges.bus.route.util.BusRouteApplicationUtil.DEPARTURE_SID;
-import static go.euro.challenges.bus.route.util.BusRouteApplicationUtil.DIRECT_BUS_ROUTE;
+import static go.euro.challenges.bus.route.util.BusRouteApplicationUtil.*;
 
 public class DirectConnection implements Serializable {
-
-    @NotNull
+    
     @JsonProperty(DEPARTURE_SID)
     private int departureId;
 
